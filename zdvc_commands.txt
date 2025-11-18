@@ -1,0 +1,11 @@
+dvc init
+dvc repro
+dvc exp run
+dvc exp show
+dvc exp remove <exp_name>
+dvc exp apply <exp-name>
+
+# S3-AWS
+dvc remote add -d s3://bucketname
+dvc commit-push the experiment you want
+
