@@ -1,0 +1,22 @@
+2025-11-17 16:58:12,166 - model_evaluation - DEBUG - Model loaded from ./models/model.pkl
+2025-11-17 16:58:12,195 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
+2025-11-17 16:58:12,286 - model_evaluation - DEBUG - Model evaluation metrics calculated
+2025-11-17 16:58:18,118 - model_evaluation - ERROR - Failed to complete the model evaluation process: Empty git repo
+2025-11-18 02:51:41,975 - model_evaluation - DEBUG - Model loaded from ./models/model.pkl
+2025-11-18 02:51:42,025 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
+2025-11-18 02:51:42,104 - model_evaluation - DEBUG - Model evaluation metrics calculated
+2025-11-18 02:52:12,005 - model_evaluation - ERROR - Failed to complete the model evaluation process: name 'params' is not defined
+2025-11-18 02:54:49,436 - model_evaluation - DEBUG - Model loaded from ./models/model.pkl
+2025-11-18 02:54:49,461 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
+2025-11-18 02:54:49,524 - model_evaluation - DEBUG - Model evaluation metrics calculated
+2025-11-18 02:55:10,044 - model_evaluation - ERROR - Failed to complete the model evaluation process: name 'params' is not defined
+2025-11-18 02:55:49,415 - model_evaluation - DEBUG - Model loaded from ./models/model.pkl
+2025-11-18 02:55:49,432 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
+2025-11-18 02:55:49,490 - model_evaluation - DEBUG - Model evaluation metrics calculated
+2025-11-18 02:56:07,043 - model_evaluation - ERROR - Failed to complete the model evaluation process: name 'params' is not defined
+2025-11-18 02:56:52,184 - model_evaluation - ERROR - Failed to complete the model evaluation process: name 'yaml' is not defined
+2025-11-18 02:58:55,894 - model_evaluation - DEBUG - Parameters retrieved from params.yaml
+2025-11-18 02:58:58,267 - model_evaluation - DEBUG - Model loaded from ./models/model.pkl
+2025-11-18 02:58:58,307 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
+2025-11-18 02:58:58,361 - model_evaluation - DEBUG - Model evaluation metrics calculated
+2025-11-18 02:59:37,052 - model_evaluation - DEBUG - Metrics saved to reports/metrics.json
