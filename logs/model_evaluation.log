@@ -35,3 +35,13 @@
 2025-11-18 04:30:05,294 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
 2025-11-18 04:30:05,343 - model_evaluation - DEBUG - Model evaluation metrics calculated
 2025-11-18 04:30:08,066 - model_evaluation - DEBUG - Metrics saved to reports/metrics.json
+2025-11-18 04:42:25,157 - model_evaluation - DEBUG - Parameters retrieved from params.yaml
+2025-11-18 04:42:27,209 - model_evaluation - DEBUG - Model loaded from ./models/model.pkl
+2025-11-18 04:42:27,233 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
+2025-11-18 04:42:27,291 - model_evaluation - DEBUG - Model evaluation metrics calculated
+2025-11-18 04:42:37,031 - model_evaluation - DEBUG - Metrics saved to reports/metrics.json
+2025-11-18 04:53:37,967 - model_evaluation - DEBUG - Parameters retrieved from params.yaml
+2025-11-18 04:53:38,654 - model_evaluation - DEBUG - Model loaded from ./models/model.pkl
+2025-11-18 04:53:38,672 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
+2025-11-18 04:53:38,755 - model_evaluation - DEBUG - Model evaluation metrics calculated
+2025-11-18 04:53:42,504 - model_evaluation - DEBUG - Metrics saved to reports/metrics.json

@@ -10,7 +10,7 @@ stages:
       isexec: true
     params:
       params.yaml:
-        data_ingestion.test_size: 0.15
+        data_ingestion.test_size: 0.3
     outs:
     - path: data/raw
       hash: md5
@@ -73,21 +73,21 @@ stages:
       isexec: true
     params:
       params.yaml:
-        model_building.n_estimators: 20
+        model_building.n_estimators: 23
         model_building.random_state: 2
     outs:
     - path: models/model.pkl
       hash: md5
-      md5: 0bd3bef841ac1fea9cb916bfc7dce135
-      size: 806936
+      md5: 75cc2ab5c6627bc528d4456078a91dbb
+      size: 922506
       isexec: true
   model_evaluation:
     cmd: python3 src/model_evaluation.py
     deps:
     - path: models/model.pkl
       hash: md5
-      md5: 0bd3bef841ac1fea9cb916bfc7dce135
-      size: 806936
+      md5: 75cc2ab5c6627bc528d4456078a91dbb
+      size: 922506
       isexec: true
     - path: src/model_evaluation.py
       hash: md5
@@ -97,6 +97,6 @@ stages:
     outs:
     - path: reports/metrics.json
       hash: md5
-      md5: 29a099c61afc1e7c8e05609f2595ac7a
-      size: 140
+      md5: 5b5fb72dcd4700334e7b6cdbf5e9fb9a
+      size: 139
       isexec: true
