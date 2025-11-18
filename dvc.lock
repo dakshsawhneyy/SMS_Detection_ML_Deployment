@@ -5,12 +5,12 @@ stages:
     deps:
     - path: src/data_ingestion.py
       hash: md5
-      md5: c6cceb015e567efa1dd03b3c59a32117
-      size: 3626
+      md5: cf1552ed6926aa5d06f2ed37255ac8c7
+      size: 3635
       isexec: true
     params:
       params.yaml:
-        data_ingestion.test_size: 0.2
+        data_ingestion.test_size: 0.15
     outs:
     - path: data/raw
       hash: md5
@@ -46,12 +46,12 @@ stages:
       nfiles: 2
     - path: src/feature_engineering.py
       hash: md5
-      md5: dce6e8fed05ca076e46818a62f88fc34
-      size: 3899
+      md5: 33108f77837ecd03453247846b23beb5
+      size: 3908
       isexec: true
     params:
       params.yaml:
-        feature_engineering.max_features: 35
+        feature_engineering.max_features: 45
     outs:
     - path: data/processed
       hash: md5
@@ -68,26 +68,26 @@ stages:
       nfiles: 2
     - path: src/model_building.py
       hash: md5
-      md5: fc2654f0df280ab2bfa2bb10372564f9
-      size: 4405
+      md5: b8211d4fca24abd0f09602108ec58924
+      size: 4423
       isexec: true
     params:
       params.yaml:
-        model_building.n_estimators: 22
+        model_building.n_estimators: 20
         model_building.random_state: 2
     outs:
     - path: models/model.pkl
       hash: md5
-      md5: 07e23f650a2fa0e67847ca3ae8375827
-      size: 998489
+      md5: 0bd3bef841ac1fea9cb916bfc7dce135
+      size: 806936
       isexec: true
   model_evaluation:
     cmd: python3 src/model_evaluation.py
     deps:
     - path: models/model.pkl
       hash: md5
-      md5: 07e23f650a2fa0e67847ca3ae8375827
-      size: 998489
+      md5: 0bd3bef841ac1fea9cb916bfc7dce135
+      size: 806936
       isexec: true
     - path: src/model_evaluation.py
       hash: md5
@@ -97,6 +97,6 @@ stages:
     outs:
     - path: reports/metrics.json
       hash: md5
-      md5: b5787b27ec5636c84a4468953782b599
+      md5: 29a099c61afc1e7c8e05609f2595ac7a
       size: 140
       isexec: true

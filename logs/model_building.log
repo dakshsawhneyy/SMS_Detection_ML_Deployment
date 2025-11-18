@@ -10,3 +10,16 @@
 2025-11-18 03:36:51,271 - model_building - DEBUG - Model training started with 4152 samples
 2025-11-18 03:36:51,355 - model_building - DEBUG - Model training completed
 2025-11-18 03:36:51,364 - model_building - DEBUG - Model saved to models/model.pkl
+2025-11-18 03:56:45,808 - model_building - ERROR - Failed to complete the model building process: name 'yaml' is not defined
+2025-11-18 03:57:42,534 - model_building - DEBUG - Parameters retrieved from params.yaml
+2025-11-18 03:57:42,565 - model_building - DEBUG - Data loaded from ./data/processed/train_tfidf.csv with shape (4152, 51)
+2025-11-18 03:57:42,571 - model_building - DEBUG - Initializing RandomForest model with parameters: {'n_estimators': 22, 'random_state': 2}
+2025-11-18 03:57:42,573 - model_building - DEBUG - Model training started with 4152 samples
+2025-11-18 03:57:42,677 - model_building - DEBUG - Model training completed
+2025-11-18 03:57:42,694 - model_building - DEBUG - Model saved to models/model.pkl
+2025-11-18 04:29:47,303 - model_building - DEBUG - Parameters retrieved from params.yaml
+2025-11-18 04:29:47,333 - model_building - DEBUG - Data loaded from ./data/processed/train_tfidf.csv with shape (4152, 51)
+2025-11-18 04:29:47,339 - model_building - DEBUG - Initializing RandomForest model with parameters: {'n_estimators': 20, 'random_state': 2}
+2025-11-18 04:29:47,339 - model_building - DEBUG - Model training started with 4152 samples
+2025-11-18 04:29:47,427 - model_building - DEBUG - Model training completed
+2025-11-18 04:29:47,442 - model_building - DEBUG - Model saved to models/model.pkl
